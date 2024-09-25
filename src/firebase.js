@@ -2,8 +2,8 @@ import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBTn2A8z4hFimhcRYU2Yc2OJFYa1uR7IfY",
-  authDomain: "safety-e5277.firebaseapp.com",
+  apiKey: process.env.apiKey,
+  authDomain: process.env.authDomain,
   databaseURL: "https://safety-e5277-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "safety-e5277",
   storageBucket: "safety-e5277.appspot.com",
